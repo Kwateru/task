@@ -7,16 +7,16 @@ $conditionCategory = (isset($_GET['category'])) ? $_GET['category'] : 0;
 // データベースからタスク情報取得
 include('function/get_task.php');
 
+// head要素
+$title = 'はじめてのタスク管理';
+
 ?>
 
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/uikit.css">
-    <title>はじめてのタスク管理</title>
-</head>
+<!-- head要素 -->
+<?php include('layout/head.php');?>
 
 <body>
     <div class="uk-container uk-container-small">

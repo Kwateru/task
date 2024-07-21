@@ -1,4 +1,5 @@
 <?php
+
 $dsn = 'mysql:dbname=academy_db;host=docker_server_test-db-1';
 $user = 's4LwPq';
 $password = 'zXw8mVbL1';

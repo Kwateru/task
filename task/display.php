@@ -5,17 +5,17 @@ include('function/display_task.php');
 
 include('function/util.php');
 
+// head要素
+$title = '詳細なタスクページ';
+
 ?>
 
 
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/uikit.css">
-    <title>詳細なタスクページ</title>
-</head>
+<!-- head要素 -->
+ <?php include('layout/head.php'); ?>
 
 <body>
     <div class="uk-container uk-container-small">

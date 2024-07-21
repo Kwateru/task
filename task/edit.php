@@ -15,16 +15,16 @@ foreach ($todoDisplay as $todoEdit) {
 }
 $categoryEdit = categoryMap($categoryEdit);
 $statusEdit = statusMap($statusEdit);
+
+// head要素
+$title = 'タスクの編集ページ';
 ?>
 
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/uikit.css">
-    <title>新規のタスク追加のページ</title>
-</head>
+<!-- head要素 -->
+<?php include('layout/head.php'); ?>
 
 <body>
     <div class="uk-container uk-container-small">
@@ -32,7 +32,7 @@ $statusEdit = statusMap($statusEdit);
 
         <form action="function/task_edit.php" method="post">
             <fieldset class="uk-fieldset">
-                <legend class="uk-legend">タスクの追加</legend>
+                <legend class="uk-legend">タスクの編集</legend>
 
                 <div class="uk-margin">
                     <input type="text" placeholder="タイトル*" name="title" class="uk-input" value="<?php echo $titleEdit; ?>" required>

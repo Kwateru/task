@@ -1,11 +1,14 @@
+<?php
+// head要素
+$tilte = '新規のタスク追加のページ';
+
+?>
+
 <!DOCTYPE html>
 <html lang="ja">
 
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="css/uikit.css">
-    <title>新規のタスク追加のページ</title>
-</head>
+<!-- head要素 -->
+<?php include('layout/head.php'); ?>
 
 <body>
     <div class="uk-container uk-container-small">
@@ -50,6 +53,7 @@
                 </div>
             </fieldset>
         </form>
+        <a class="uk-button uk-button-default" href="index.php">タスク一覧へ</a>
     </div>
 </body>
 
