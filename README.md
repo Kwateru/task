@@ -82,7 +82,7 @@
 ## 7.使用技術
 | Category          | Technology Stack    | 
 | ----------------- | ------------------- | 
-| Frontend          | HTML, CSS           | 
+| Frontend          | HTML, CSS（UIkit）  | 
 | Backend           | PHP                 | 
 | Database          | phpMyAdmin          | 
 | Environment setup | Docker              | 
